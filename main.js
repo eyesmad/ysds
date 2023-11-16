@@ -1,7 +1,7 @@
 try {
     (({
         quizId: t = location.pathname.match(/\/([^\/]*)/)[1],
-        time: c = 5.7
+        time: c = .5
     } = {}) => {
         const o = {
             score: 10 * c,
